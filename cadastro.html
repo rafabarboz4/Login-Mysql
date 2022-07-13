@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar</title>
+    <link rel="stylesheet" href="style_cadastrar.css">
+</head>
+<body>
+    <form id="form" action="cadastro.php" method="post">
+        <div id="header">
+            <h3>CADASTRAR</h3>
+        </div>
+        <div id="form-control">
+            <label for="name_input">Usuário</label>
+            <input type="text" name="name_input" id="name_input" placeholder="Digite seu usuario">
+        </div>
+        <div id="form-control">
+            <label for="email_input">Email</label>
+            <input type="text" name="email_input" id="email_input" placeholder="Digite seu email">
+        </div>
+        <div id="form-control">
+            <label for="password_input">Senha</label>
+            <input type="password" name="password_input" id="password_input" placeholder="Digite sua senha">
+        </div>
+        <div id="form-control">
+            <label for="password_confirm_input">Confimar senha</label>
+            <input type="password" name="password_confirm_input" id="password_confirm_input" placeholder="Digite sua senha">
+        </div>
+        <input type="submit" value="criar conta" name="form_entrar" id="form_entrar">
+        <a href="index.html" name="form_cadastrar" id="form_cadastrar"><p>Já é cadastrado ?</p></a>
+    </form>
+    <script src="script_cadastro.js"></script>
+</body>
+</html>
